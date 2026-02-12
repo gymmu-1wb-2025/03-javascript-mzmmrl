@@ -1,3 +1,7 @@
-const name = process.argv[2]
+const name = process.argv[2];
 
-console.log(`Hello ${name}!`);
+if (isNaN) {
+	console.log(`Hello ${name}!`);
+} else {
+	console.log(`Error!`);
+}
